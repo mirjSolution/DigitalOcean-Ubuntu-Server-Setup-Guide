@@ -88,6 +88,10 @@ By default, all ports are open—not secure! Let’s fix that.
 
 ![Firewall](Images/createFW.png)
 
+3. Assign the firewall rules to our created droplet
+
+![Assign](Images/assignFW.png)
+
 ### 🔥 Firewall Rules Summary
 
 | Type     | Port | Source       | Description             |
@@ -95,10 +99,23 @@ By default, all ports are open—not secure! Let’s fix that.
 | Inbound  | 22   | Your IP only | SSH access to server    |
 | Outbound | All  | All          | Allow droplet to update |
 
-## 🔌 Connect via SSH
+## 🔌 Connect via SSH to your computer
+
+- Copy your droplet ip address, go to your terminal then run the following command below
 
 ```bash
 ssh root@<your-droplet-ip>
 ```
 
 - Because of the SSH key, no password is needed. You're now logged in as the root user 🎉
+
+![ssh terminal](Images/sshroot.png)
+
+## Finally lets try to install java
+
+```bash
+apt update
+apt install openjdk-8-jre-headless
+```
+
+![install java](Images/installjava.png)
