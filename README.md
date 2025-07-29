@@ -84,8 +84,9 @@ By default, all ports are open—not secure! Let’s fix that.
 - Allow Inbound Rules:
   - SSH (port 22) from your IP (not all IPs!)
   - Use What’s My IP to find your current IP
+- Click Create Firewall to finish
 
-3. Assign the firewall to your droplet.
+![Firewall](Images/createFW.png)
 
 ### 🔥 Firewall Rules Summary
 
