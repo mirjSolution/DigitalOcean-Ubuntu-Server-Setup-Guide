@@ -119,3 +119,8 @@ apt install openjdk-8-jre-headless
 ```
 
 ![install java](Images/installjava.png)
+
+---
+
+🧑‍💻 _Created by Rico John Dato-on_
+🔗 [LinkedIn](https://www.linkedin.com/in/rico-john-dato-on) • [Portfolio](https://ricodatoon.netlify.app)
