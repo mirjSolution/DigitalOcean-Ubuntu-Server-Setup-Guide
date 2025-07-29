@@ -64,11 +64,18 @@ cat id_rsa.pub
 
 ![Fin](Images/finDroplet.png)
 
+- Go to Droplets to see created droplet
+
+![Created](Images/createdDroplet.png)
+
 ## 🔐 Secure the Droplet with a Firewall
 
 By default, all ports are open—not secure! Let’s fix that.
 
-1. Go to the Networking tab
+1. Click the created droplet and go to the Networking tab
+
+![Setup Firewall](Images/editFirewall.png)
+
 2. Create a new firewall
    - Name: my-droplet-firewall
    - Allow Inbound Rules:
