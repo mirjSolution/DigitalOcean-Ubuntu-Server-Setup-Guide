@@ -46,7 +46,7 @@ Welcome to this step-by-step guide to setting up a **Linux Ubuntu server (Drople
 
 - Choose **SSH Key**
 
-![Ubuntu](Images/basicplan.png)
+![Ubuntu](Images/selssh.png)
 
 - On your local machine go to your terminal and copy the command below
 
